@@ -17,26 +17,24 @@ int main(void)
 {
 	//Initialise LEDs.
 	LED_Initialize();
-	
-	SystemCoreClockUpdate();
 
-	//Start the two tasks. 
-	xTaskCreate( prvFlashLED1Task,							/* The function that implements the task. */ 
-							 "Flash1", 											/* The text name assigned to the task - for debug only. */ 
-							 configMINIMAL_STACK_SIZE, 			/* The size of the stack to allocate to the task. */ 
-							 NULL, 													/* The parameter passed to the task. */ 
-							 tskIDLE_PRIORITY + 1, 					/* The priority assigned to the task. */ 
-							 NULL );												/* The task handle is not required, so NULL is passed. */ 
+	//Create the two tasks. 
+	xTaskCreate( prvFlashLED1Task,							//The function that implements the task.
+							 "Flash1", 											//The text name assigned to the task - for debug only. 
+							 configMINIMAL_STACK_SIZE, 			//The size of the stack to allocate to the task.
+							 NULL, 													//The parameter passed to the task. 
+							 tskIDLE_PRIORITY + 1, 					//The priority assigned to the task.
+							 NULL );												//The task handle is not required, so NULL is passed.
 
  
-	xTaskCreate( prvFlashLED2Task,							/* The function that implements the task. */ 
-							 "Flash2", 											/* The text name assigned to the task - for debug only. */ 
-							 configMINIMAL_STACK_SIZE, 			/* The size of the stack to allocate to the task. */ 
-							 NULL, 													/* The parameter passed to the task. */ 
-							 tskIDLE_PRIORITY + 2, 					/* The priority assigned to the task. */ 
-							 NULL );												/* The task handle is not required, so NULL is passed. */ 
+	xTaskCreate( prvFlashLED2Task,							//The function that implements the task.
+							 "Flash2", 											//The text name assigned to the task - for debug only.
+							 configMINIMAL_STACK_SIZE, 			//The size of the stack to allocate to the task.
+							 NULL, 													//The parameter passed to the task.
+							 tskIDLE_PRIORITY + 2, 					//The priority assigned to the task.
+							 NULL );												//The task handle is not required, so NULL is passed. 
  
-	/* Start the tasks and timer running. */ 
+	//Start the tasks and timer running.
 	vTaskStartScheduler(); 
 
 	//Loop forever.
@@ -46,54 +44,52 @@ int main(void)
 	}
 }
 
+//Task to make the faster LED flash.
 static void prvFlashLED1Task( void *pvParameters ) 
 { 
-	portTickType xNextWakeTime; 
-	 
-	/* Initialise xNextWakeTime - this only needs to be done once. */ 
-	xNextWakeTime = xTaskGetTickCount(); 
-
-	 
 	while(1) 
 	{ 
 		/* Place this task in the blocked state until it is time to run again. 
 		The block time is specified in ticks, the constant used converts ticks 
 		to ms.  While in the Blocked state this task will not consume any CPU 
 		time. */ 
-		vTaskDelayUntil( &xNextWakeTime, LED_FREQUENCY_1_MS / portTICK_RATE_MS ); 
+		vTaskDelay( LED_FREQUENCY_1_MS / portTICK_RATE_MS ); 
  
-		/* Turn on an LED. */ 
+		//Turn on an LED. 
 		LED_On(0);
  
-		vTaskDelayUntil( &xNextWakeTime, LED_FREQUENCY_1_MS / portTICK_RATE_MS ); 
+		/* Place this task in the blocked state until it is time to run again. 
+		The block time is specified in ticks, the constant used converts ticks 
+		to ms.  While in the Blocked state this task will not consume any CPU 
+		time. */ 
+		vTaskDelay( LED_FREQUENCY_1_MS / portTICK_RATE_MS ); 
 		
-		/* Turn off an LED. */
+		//Turn off an LED.
     LED_Off(0);
 	} 
 } 
 
+//Task to make the slower LED flash.
 static void prvFlashLED2Task( void *pvParameters ) 
-{ 
-	portTickType xNextWakeTime; 
-	 
-	/* Initialise xNextWakeTime - this only needs to be done once. */ 
-	xNextWakeTime = xTaskGetTickCount(); 
-
-	 
+{ 	 
 	while(1) 
 	{ 
 		/* Place this task in the blocked state until it is time to run again. 
 		The block time is specified in ticks, the constant used converts ticks 
 		to ms.  While in the Blocked state this task will not consume any CPU 
 		time. */ 
-		vTaskDelayUntil( &xNextWakeTime, LED_FREQUENCY_2_MS / portTICK_RATE_MS ); 
+		vTaskDelay( LED_FREQUENCY_2_MS / portTICK_RATE_MS ); 
  
-		/* Turn on an LED. */ 
+		//Turn on an LED.
 		LED_On(3);
  
-		vTaskDelayUntil( &xNextWakeTime, LED_FREQUENCY_2_MS / portTICK_RATE_MS ); 
+		/* Place this task in the blocked state until it is time to run again. 
+		The block time is specified in ticks, the constant used converts ticks 
+		to ms.  While in the Blocked state this task will not consume any CPU 
+		time. */ 
+		vTaskDelay( LED_FREQUENCY_2_MS / portTICK_RATE_MS ); 
 		
-		/* Turn off an LED. */
+		//Turn off an LED.
     LED_Off(3);
 	} 
 } 

@@ -52,7 +52,7 @@
           <OutputName>flash</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
-          <CreateHexFile>0</CreateHexFile>
+          <CreateHexFile>1</CreateHexFile>
           <DebugInformation>1</DebugInformation>
           <BrowseInformation>1</BrowseInformation>
           <ListingPath>.\Listings\</ListingPath>
@@ -257,17 +257,17 @@
                 <Size>0x0</Size>
               </XRAM>
               <OCR_RVCT1>
-                <Type>0</Type>
+                <Type>1</Type>
                 <StartAddress>0x0</StartAddress>
                 <Size>0x0</Size>
               </OCR_RVCT1>
               <OCR_RVCT2>
-                <Type>0</Type>
+                <Type>1</Type>
                 <StartAddress>0x0</StartAddress>
                 <Size>0x0</Size>
               </OCR_RVCT2>
               <OCR_RVCT3>
-                <Type>0</Type>
+                <Type>1</Type>
                 <StartAddress>0x0</StartAddress>
                 <Size>0x0</Size>
               </OCR_RVCT3>
@@ -277,7 +277,7 @@
                 <Size>0x80000</Size>
               </OCR_RVCT4>
               <OCR_RVCT5>
-                <Type>0</Type>
+                <Type>1</Type>
                 <StartAddress>0x0</StartAddress>
                 <Size>0x0</Size>
               </OCR_RVCT5>
@@ -333,7 +333,7 @@
             <v6WtE>0</v6WtE>
             <v6Rtti>0</v6Rtti>
             <VariousControls>
-              <MiscControls></MiscControls>
+              <MiscControls>--show_cmdline</MiscControls>
               <Define></Define>
               <Undefine></Undefine>
               <IncludePath></IncludePath>
@@ -484,7 +484,7 @@
       <file attr="config" category="header" condition="CoreM" name="Config\ARMCM\FreeRTOSConfig.h" version="9.0.0">
         <instance index="0">RTE\RTOS\FreeRTOSConfig.h</instance>
         <component Cbundle="FreeRTOS" Cclass="RTOS" Cgroup="Config" Cvariant="FreeRTOS" Cvendor="ARM" Cversion="9.0.0" condition="FreeRTOS Core"/>
-        <package license="License/license.txt" name="CMSIS-FreeRTOS" schemaVersion="1.4" url="http://www.keil.com/pack/" vendor="ARM" version="9.0.0"/>
+        <package license="License/license.txt" name="CMSIS-FreeRTOS" schemaVersion="1.4" url="http://www.keil.com/pack/" vendor="ARM" version="9.1.0"/>
         <targetInfos>
           <targetInfo name="Target 1"/>
         </targetInfos>

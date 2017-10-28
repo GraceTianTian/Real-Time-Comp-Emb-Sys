@@ -704,15 +704,15 @@ ARM Macro Assembler    Page 11
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0+ --apcs=inter
 work --depend=.\objects\startup_mkw41z4.d -o.\objects\startup_mkw41z4.o -I.\RTE
-\Device\MKW41Z512xxx4 -I.\RTE\RTOS -I.\RTE\_Target_1 -IC:\Apps\Keil_v5\ARM\PACK
-\ARM\CMSIS-FreeRTOS\9.0.0\CMSIS\RTOS2\FreeRTOS\Include -IC:\Apps\Keil_v5\ARM\PA
-CK\ARM\CMSIS-FreeRTOS\9.0.0\Source\include -IC:\Apps\Keil_v5\ARM\PACK\ARM\CMSIS
--FreeRTOS\9.0.0\Source\portable\RVDS\ARM_CM0 -IC:\Apps\Keil_v5\ARM\PACK\ARM\CMS
-IS\5.0.1\CMSIS\Include -IC:\Apps\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\D
-evice\Include -IC:\Apps\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.4.1\Board --pred
-efine="__UVISION_VERSION SETA 524" --predefine="_RTE_ SETA 1" --predefine="MKW4
-1Z512xxx4 SETA 1" --list=.\listings\startup_mkw41z4.lst RTE\Device\MKW41Z512xxx
-4\startup_MKW41Z4.s
+\Device\MKW41Z512xxx4 -I.\RTE\RTOS -I.\RTE\_Target_1 -IC:\Keil_v5\ARM\PACK\ARM\
+CMSIS-FreeRTOS\9.1.0\CMSIS\RTOS2\FreeRTOS\Include -IC:\Keil_v5\ARM\PACK\ARM\CMS
+IS-FreeRTOS\9.1.0\Source\include -IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0
+\Source\portable\RVDS\ARM_CM0 -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Inclu
+de -IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include -IC:\Keil_v
+5\ARM\PACK\Keil\MDK-Middleware\7.4.1\Board --predefine="__EVAL SETA 1" --predef
+ine="__UVISION_VERSION SETA 524" --predefine="_RTE_ SETA 1" --predefine="MKW41Z
+512xxx4 SETA 1" --list=.\listings\startup_mkw41z4.lst RTE\Device\MKW41Z512xxx4\
+startup_MKW41Z4.s
 
 
 
@@ -1559,4 +1559,4 @@ Symbol: __use_two_region_memory
       None
 Comment: __use_two_region_memory unused
 3 symbols
-425 symbols in table
+426 symbols in table
