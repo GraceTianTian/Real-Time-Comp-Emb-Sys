@@ -1,0 +1,9 @@
+# Build directory.
+/Debug/
+
+
+# Settings folder.
+.settings/
+
+# Some build configuration things.
+*.launch
