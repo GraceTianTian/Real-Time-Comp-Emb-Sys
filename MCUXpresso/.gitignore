@@ -1,0 +1,5 @@
+# Project metadata.
+.metadata/
+
+# Log files.
+FreeRTOS_TAD_logs/
