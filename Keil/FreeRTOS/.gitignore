@@ -1,0 +1,13 @@
+# Compiled objects.
+Objects/
+
+# Flash map.
+Listings/flash.map
+
+# Project files.
+flash.uvguix.*
+flash.uvoptx
+
+# Log files.
+EventRecorderStub.scvd
+JLinkLog.txt

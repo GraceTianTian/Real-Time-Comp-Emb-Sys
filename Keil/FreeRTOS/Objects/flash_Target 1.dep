@@ -1,165 +1,0 @@
-Dependencies for Project 'flash', Target 'Target 1': (DO NOT MODIFY !)
-F (.\flash.c)(0x59F462D3)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections --show_cmdline-I.\RTE\Device\MKW41Z512xxx4-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\portable\RVDS\ARM_CM0-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.4.1\Board-D__UVISION_VERSION="524" -D_RTE_ -DMKW41Z512xxx4-o .\objects\flash.o --omf_browse .\objects\flash.crf --depend .\objects\flash.d)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\FreeRTOS.h)(0x598B214C)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588BE5B4)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
-I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28726)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x598DD422)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BE5B4)
-I (.\RTE\_Target_1\RTE_Components.h)(0x59EDD2B6)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\projdefs.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\portable.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\deprecated_definitions.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x598B214E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\mpu_wrappers.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\task.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\list.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\queue.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\timers.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.4.1\Board\Board_LED.h)(0x5877623C)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include\MKW41Z4.h)(0x58EB8E72)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\core_cm0plus.h)(0x59C12A8E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_version.h)(0x59847036)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_compiler.h)(0x59C12A8E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_armcc.h)(0x59C12A8E)
-I (.\RTE\Device\MKW41Z512xxx4\system_MKW41Z4.h)(0x57D6B86C)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Boards\NXP\FRDM-KW41Z\Common\LED_FRDM-KW41Z.c)(0x57D6B86C)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections --show_cmdline-I.\RTE\Device\MKW41Z512xxx4-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\portable\RVDS\ARM_CM0-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.4.1\Board-D__UVISION_VERSION="524" -D_RTE_ -DMKW41Z512xxx4-o .\objects\led_frdm-kw41z.o --omf_browse .\objects\led_frdm-kw41z.crf --depend .\objects\led_frdm-kw41z.d)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include\MKW41Z4.h)(0x58EB8E72)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\core_cm0plus.h)(0x59C12A8E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_version.h)(0x59847036)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_compiler.h)(0x59C12A8E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_armcc.h)(0x59C12A8E)
-I (.\RTE\Device\MKW41Z512xxx4\system_MKW41Z4.h)(0x57D6B86C)
-I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.4.1\Board\Board_LED.h)(0x5877623C)
-F (RTE\Device\MKW41Z512xxx4\startup_MKW41Z4.s)(0x57D6B86C)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\Device\MKW41Z512xxx4-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\portable\RVDS\ARM_CM0-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.4.1\Board--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "MKW41Z512xxx4 SETA 1"--list .\listings\startup_mkw41z4.lst --xref -o .\objects\startup_mkw41z4.o --depend .\objects\startup_mkw41z4.d)
-F (RTE\Device\MKW41Z512xxx4\system_MKW41Z4.c)(0x57D6B86C)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections --show_cmdline-I.\RTE\Device\MKW41Z512xxx4-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\portable\RVDS\ARM_CM0-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.4.1\Board-D__UVISION_VERSION="524" -D_RTE_ -DMKW41Z512xxx4-o .\objects\system_mkw41z4.o --omf_browse .\objects\system_mkw41z4.crf --depend .\objects\system_mkw41z4.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include\MKW41Z4.h)(0x58EB8E72)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\core_cm0plus.h)(0x59C12A8E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_version.h)(0x59847036)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_compiler.h)(0x59C12A8E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_armcc.h)(0x59C12A8E)
-I (.\RTE\Device\MKW41Z512xxx4\system_MKW41Z4.h)(0x57D6B86C)
-F (RTE\Device\MKW41Z512xxx4\system_MKW41Z4.h)(0x57D6B86C)()
-F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c)(0x598DD422)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections --show_cmdline-I.\RTE\Device\MKW41Z512xxx4-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\portable\RVDS\ARM_CM0-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.4.1\Board-D__UVISION_VERSION="524" -D_RTE_ -DMKW41Z512xxx4-o .\objects\freertos_evr.o --omf_browse .\objects\freertos_evr.crf --depend .\objects\freertos_evr.d)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x598DD422)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BE5B4)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
-I (.\RTE\_Target_1\RTE_Components.h)(0x59EDD2B6)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_compiler.h)(0x59C12A8E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_armcc.h)(0x59C12A8E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\FreeRTOS.h)(0x598B214C)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588BE5B4)
-I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28726)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\projdefs.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\portable.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\deprecated_definitions.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x598B214E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\mpu_wrappers.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\task.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\list.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\semphr.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\queue.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\event_groups.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\timers.h)(0x598B214C)
-F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\list.c)(0x598B214C)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections --show_cmdline-I.\RTE\Device\MKW41Z512xxx4-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\portable\RVDS\ARM_CM0-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.4.1\Board-D__UVISION_VERSION="524" -D_RTE_ -DMKW41Z512xxx4-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BE5B4)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\FreeRTOS.h)(0x598B214C)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588BE5B4)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
-I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28726)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x598DD422)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BE5B4)
-I (.\RTE\_Target_1\RTE_Components.h)(0x59EDD2B6)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\projdefs.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\portable.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\deprecated_definitions.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x598B214E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\mpu_wrappers.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\list.h)(0x598B214C)
-F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\portable\MemMang\heap_4.c)(0x598B214E)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections --show_cmdline-I.\RTE\Device\MKW41Z512xxx4-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\portable\RVDS\ARM_CM0-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.4.1\Board-D__UVISION_VERSION="524" -D_RTE_ -DMKW41Z512xxx4-o .\objects\heap_4.o --omf_browse .\objects\heap_4.crf --depend .\objects\heap_4.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BE5B4)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\FreeRTOS.h)(0x598B214C)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588BE5B4)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
-I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28726)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x598DD422)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BE5B4)
-I (.\RTE\_Target_1\RTE_Components.h)(0x59EDD2B6)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\projdefs.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\portable.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\deprecated_definitions.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x598B214E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\mpu_wrappers.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\task.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\list.h)(0x598B214C)
-F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\portable\RVDS\ARM_CM0\port.c)(0x598B214E)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections --show_cmdline-I.\RTE\Device\MKW41Z512xxx4-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\portable\RVDS\ARM_CM0-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.4.1\Board-D__UVISION_VERSION="524" -D_RTE_ -DMKW41Z512xxx4-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\FreeRTOS.h)(0x598B214C)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588BE5B4)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
-I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28726)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x598DD422)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BE5B4)
-I (.\RTE\_Target_1\RTE_Components.h)(0x59EDD2B6)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\projdefs.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\portable.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\deprecated_definitions.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x598B214E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\mpu_wrappers.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\task.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\list.h)(0x598B214C)
-F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\queue.c)(0x598B214E)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections --show_cmdline-I.\RTE\Device\MKW41Z512xxx4-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\portable\RVDS\ARM_CM0-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.4.1\Board-D__UVISION_VERSION="524" -D_RTE_ -DMKW41Z512xxx4-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BE5B4)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BE5B4)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\FreeRTOS.h)(0x598B214C)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588BE5B4)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
-I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28726)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x598DD422)
-I (.\RTE\_Target_1\RTE_Components.h)(0x59EDD2B6)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\projdefs.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\portable.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\deprecated_definitions.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x598B214E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\mpu_wrappers.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\task.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\list.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\queue.h)(0x598B214C)
-F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\tasks.c)(0x598B214E)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections --show_cmdline-I.\RTE\Device\MKW41Z512xxx4-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\portable\RVDS\ARM_CM0-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.4.1\Board-D__UVISION_VERSION="524" -D_RTE_ -DMKW41Z512xxx4-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BE5B4)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BE5B4)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\FreeRTOS.h)(0x598B214C)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588BE5B4)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
-I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28726)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x598DD422)
-I (.\RTE\_Target_1\RTE_Components.h)(0x59EDD2B6)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\projdefs.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\portable.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\deprecated_definitions.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x598B214E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\mpu_wrappers.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\task.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\list.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\timers.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\StackMacros.h)(0x598B214C)
-F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\timers.c)(0x598B214E)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections --show_cmdline-I.\RTE\Device\MKW41Z512xxx4-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\portable\RVDS\ARM_CM0-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.4.1\Board-D__UVISION_VERSION="524" -D_RTE_ -DMKW41Z512xxx4-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BE5B4)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\FreeRTOS.h)(0x598B214C)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588BE5B4)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
-I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28726)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x598DD422)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BE5B4)
-I (.\RTE\_Target_1\RTE_Components.h)(0x59EDD2B6)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\projdefs.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\portable.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\deprecated_definitions.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x598B214E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\mpu_wrappers.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\task.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\list.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\queue.h)(0x598B214C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include\timers.h)(0x598B214C)
-F (RTE\RTOS\FreeRTOSConfig.h)(0x58C28726)()
