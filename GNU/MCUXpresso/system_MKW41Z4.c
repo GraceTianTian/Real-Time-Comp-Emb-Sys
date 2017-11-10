@@ -67,7 +67,7 @@
  */
 
 #include <stdint.h>
-#include "fsl_device_registers.h"
+#include "MKW41Z4.h"
 
 
 
