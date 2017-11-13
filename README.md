@@ -16,4 +16,4 @@ Note that the gcc compilers need to be added to the path and the JLink GDB Serve
 
 ## Trace
 
-Also note that the micro trace buffer has not been used yet.
+
